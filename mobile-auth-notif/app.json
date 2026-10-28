@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "mobile-auth-notif",
+    "slug": "mobile-auth-notif",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "mobileauthnotif",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "android": {
+      "package": "id.ac.uinsa.mobileauthnotif",
+      "googleServicesFile": "./google-services.json",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
